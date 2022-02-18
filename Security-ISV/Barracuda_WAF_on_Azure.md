@@ -127,8 +127,8 @@ This document will help you in configuring the Barracuda Web Application firewal
 
 5.	If the Sign-In page of **Barracuda** occurs, use the following credentials:
 
-Username : **admin**
-Password : The password you provided when deploying the quickstart template.
+    - Username : **admin**
+    - Password : The password you provided when deploying the quickstart template.
 
 Click on **Sign in**.
  
