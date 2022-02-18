@@ -1,4 +1,4 @@
-# Barracuda WAF on Azure: Post Deployment Configuration Guide
+# Product Name in Azure MP
 
 ## Overview 
 
@@ -8,10 +8,10 @@ This document will help you in configuring the Barracuda Web Application firewal
 
 - Microsoft Azure Subscription with admin credentials.
 
-- Azure Quick-start template **Barracuda-waf-solution** needs to be deployed successfully in the subscription
+- Azure Quick-start template **Barracuda-waf-solution** needs to be deployed successfully in the subscription 
 
 
-### Instructions
+## Task 1: Getting started with the environment
 
 1.	**Launch** the Edge browser and **Navigate** to https://portal.azure.com.
 
@@ -73,6 +73,8 @@ This document will help you in configuring the Barracuda Web Application firewal
 **web-vm2** in step **11**. Now, you will have all the following IP addresses in your notepad.
 
    ![](images/Picture14.png)
+   
+## Task 2: Accessing the Barracuda Dashboard   
 
 17.	Open a new tab in the browser and paste the **Barracuda WAF Public IP** from the notepad. Append a **colon** and the port number **8000** to the ip address as shown below. This port is used by the **BWAF** management web interface. Press **Enter** key.
 
@@ -87,6 +89,8 @@ This document will help you in configuring the Barracuda Web Application firewal
 19.	Scroll down to the bottom of the page. Fill the text boxes with appropriate values and Click **Accept**.
 
    ![](images/Picture17.jpg)
+   
+## Task 3: Configuiring Barracuda Firewall   
  
 20.	In the **Sign-In page** of Barracuda, use the following credentials:
 
@@ -188,7 +192,7 @@ Click on **Sign in**.
 37.	Now you can update the website at the backend servers as per your requirements and configure similar services via Barracuda. Follow Barracuda documentation to learn more about configuring Barracuda web application firewall (https://campus.barracuda.com/product/webapplicationfirewall)
 
 
-## Accessing Web VMs via RDP
+## Task 4: Accessing Web VMs via RDP
 
 ### Instructions
 
