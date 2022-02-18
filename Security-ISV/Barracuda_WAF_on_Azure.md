@@ -236,7 +236,7 @@ Click on **Sign in**.
 
    ![](images/Picture43.png)
 
-    Click **Connect**.
+   Click **Connect**.
 
 11.	In the following window, provide the username and password used while deploying the solution.. Click **OK**.
 
