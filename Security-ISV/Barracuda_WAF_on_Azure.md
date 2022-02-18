@@ -86,7 +86,7 @@ This document will help you in configuring the Barracuda Web Application firewal
 
    ![](images/Picture16.jpg)
 
-    This is the **Barracuda End User License Agreement.**
+  This is the **Barracuda End User License Agreement.**
 
 3.	Scroll down to the bottom of the page. Fill the text boxes with appropriate values and Click **Accept**.
 
